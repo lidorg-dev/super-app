@@ -1,5 +1,5 @@
 # Get the php apache image
-FROM php:8.0-apache
+FROM php:8.4.3RC1-apache
 
 # Switch to app directory
 WORKDIR /var/www/html
